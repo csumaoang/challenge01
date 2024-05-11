@@ -18,9 +18,9 @@ Clyde is 6 years old, loves yarn and has 0 dollars in the bank.
 ## Part 3
 
 Wrote a script that uses the JSON provided by the dog.ceo API to print out a nicely formatted list of dog breeds and sub-breeds.  
-Then replace the last line of the script with a nested loop that prints out all the dog breeds and associated sub-breeds.
+Then replaced the last line of the script with a nested loop that prints out all the dog breeds and associated sub-breeds.
 
 ## Part 4
 
 Using data from the city's open data set, figured out how many of our trees may die now that the Emerald Ash Borer has been found here.  
-Then write a program to automatically count all the Ash trees in the dataset.
+Then wrote a program to automatically count all the Ash trees in the dataset.
