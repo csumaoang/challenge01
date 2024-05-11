@@ -2,14 +2,13 @@
 
 # Array of hashes named 'ghosts'
 ghosts = [
-  { :name => ["Inky", "Pinky", "Blinky", "Clyde"],
-    :age => ["4", "5", "7", "6"],
-    :loves => ["reindeers", "garden tools", "ninjas", "yarn"],
-    :net_worth => ["25", "14", "18.03", "0"] },
+  { name: "Inky", age: 4, loves: "reindeers", net_worth: 25 },
+  { name: "Pinky", age: 5, loves: "garden tools", net_worth: 14 },
+  { name: "Blinky", age: 7, loves: "ninjas", net_worth: 18.03 },
+  { name: "Clyde", age: 6, loves: "yarn", net_worth: 0 },
 ]
 
 # Process 'ghosts' array and generate text
-
 ghosts.each do |ghost|
   ghost_info = "#{ghost[:name]} is #{ghost[:age]} years old, "
   ghost_info += "loves #{ghost[:loves]} and "
